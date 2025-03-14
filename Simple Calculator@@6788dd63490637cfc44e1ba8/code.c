@@ -10,17 +10,17 @@ int main() {
 
     switch (operator) {
         case '+':
-            printf("%d", num1, num2, num1 + num2);
+            printf("%d", num1 + num2);
             break;
         case '-':
-            printf("%d", num1, num2, num1 - num2);
+            printf("%d", num1 - num2);
             break;
         case '*':
-            printf("%d", num1, num2, num1 * num2);
+            printf("%d", num1 * num2);
             break;
         case '/':
             if (num2 != 0) {
-                printf("%d", num1, num2, num1 / num2);
+                printf("%d", num1 / num2);
             } else {
                 printf("Error! Division by zero.\n");
             }
