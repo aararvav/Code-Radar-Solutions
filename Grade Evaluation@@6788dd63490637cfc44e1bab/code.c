@@ -2,7 +2,7 @@
 
 int main(){
     char grade;
-    scanf(%c, &grade);
+    scanf("%c", &grade);
 
     switch (grade){
         case 'A':
