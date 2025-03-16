@@ -20,8 +20,9 @@ int main(){
         case 'E':
             printf("Fail");
             break;
-
-    
+        case 'F':
+            printf("Fail");
+            break;
 
     }
     return 0;
