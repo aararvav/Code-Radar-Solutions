@@ -4,10 +4,9 @@ int main(){
     int nums;
     scanf("%d", &nums);
 
-    printf("%d\n", nums);
-
     for(int i=1; i<=nums; i++){
         int sum=0;
+        printf("%d\n", sum)
         sum=sum+i;
         printf("%d", sum);
     }
